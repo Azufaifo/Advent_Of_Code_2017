@@ -1,6 +1,6 @@
 checksum = 0
 
-infile = open('input_file.txt', 'r')
+infile = open('Day_2/input_file.txt', 'r')
 
 for line in infile:
 	numbers = []
@@ -34,6 +34,6 @@ infile.close()
 
 
 
-outfile = open('output_file.txt', 'w')
+outfile = open('Day_2/output_file.txt', 'w')
 outfile.write(str(checksum))
 outfile.close()

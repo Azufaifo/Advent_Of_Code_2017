@@ -1,6 +1,6 @@
 ac = 0
 
-infile = open('Day_2/input_file.txt', 'r')
+infile = open('Day_1/input_file.txt', 'r')
 
 for line in infile:
 	tamLine = len(line)
@@ -15,6 +15,6 @@ for line in infile:
 infile.close()
 
 
-outfile = open('Day_2/output_file.txt', 'w')
+outfile = open('Day_1/output_file.txt', 'w')
 outfile.write(str(ac))
 outfile.close()
