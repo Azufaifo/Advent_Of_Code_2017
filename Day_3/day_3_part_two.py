@@ -81,6 +81,7 @@ def main():
 
 	for line in infile:
 		end = int(line)
+		print("hola")
 
 	infile.close()
 
